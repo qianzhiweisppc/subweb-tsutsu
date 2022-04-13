@@ -5,7 +5,7 @@
         <el-card style="margin-top:20px;max-width:800px;margin:auto;opacity:0.8;blackground-color:#0F4677;border-radius: 20px;">
           <div slot="header" style="blackground-color:#0F4677;text-align:center;font-size :25px !important;font-weight: bold !important;">
             <svg-icon icon-class="lock" style="margin-left: 20px" title="完整魔改版:v1.2"/>
-            Luoye订阅转换
+            luoye订阅转换
             <svg-icon icon-class="telegram" style="margin-left: 10px" title="加入Telegram吹水群" @click="gotoTgChannel" />
           </div>
           <el-container>
@@ -254,14 +254,14 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
-          "api.tsutsu.cc": "https://api.tsutsu.cc/sub?",
-          "api2.tsutsu.cc": "https://api2.tsutsu.cc/sub?",
-          "api.v1.mk": "https://api.v1.mk/sub?",
-          "subcon.dlj.tf": "https://subcon.dlj.tf/sub?",
-          "api.dler.io": "https://api.dler.io/sub?",
-          "api.wcc.best": "https://api.wcc.best/sub?",
-          "api.hope140.live": "https://api.hope140.live/sub?",
-          "sub.id9.cc": "https://sub.id9.cc/sub?",
+          "api.tsutsu.cc (つつ提供-香港CN2稳定)": "https://api.tsutsu.cc/sub?",
+          "api2.tsutsu.cc (つつ提供-香港CN2备用)": "https://api2.tsutsu.cc/sub?",
+          "api.v1.mk（肥羊提供-四端八核负载)": "https://api.v1.mk/sub?",
+          "subcon.dlj.tf (subconverter作者提供) ": "https://subcon.dlj.tf/sub?",
+          "api.dler.io (sub作者&lhie1提供)": "https://api.dler.io/sub?",
+          "api.wcc.best (sub-web作者提供)": "https://api.wcc.best/sub?",
+          "api.hope140.live (hope提供-vercel)": "https://api.hope140.live/sub?",
+          "sub.id9.cc (品云提供)": "https://sub.id9.cc/sub?",
         },
         backendOptions: [
           { value: "https://api.tsutsu.cc/sub?" },
@@ -275,24 +275,24 @@ export default {
         ],
         remoteConfig: [
           {
-            label: "自用",
+            label: "つつ自用,投稿请tg找 @Ox208",
             options: [
               {
-                label: "自用-完整分组",
+                label: "つつ自用-完整分组",
                 value:
                   "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-full.ini"
               },
               {
-                label: "自用-完整分组(地区自动选择)",
+                label: "つつ自用-完整分组(地区自动选择)",
                 value:
                   "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-full-urltest.ini"
               },
               {
-                label: "自用-Immtel专用(地区自动选择)",
+                label: "つつ自用-Immtel专用(地区自动选择)",
                 value:
                   "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-full-urltest-imm.ini"
               },
-            
+              {
                 label: "つつ自用-超jb精简分组(含国内分流)",
                 value:
                   "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-mini-gfw.ini"
@@ -475,7 +475,7 @@ export default {
   },
   created() {
     // document.title = "Subscription Converter";
-    document.title = "Luoye订阅转换 ";
+    document.title = "つつの订阅转换 ";
      this.isPC = this.$getOS().isPc;
 
     // 获取 url cache
