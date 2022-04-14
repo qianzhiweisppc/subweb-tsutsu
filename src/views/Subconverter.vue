@@ -275,25 +275,25 @@ export default {
         ],
         remoteConfig: [
           {
-            label: "つつ自用,投稿请tg找 @Ox208",
+            label: "Luoye自用",
             options: [
               {
-                label: "つつ自用-完整分组",
+                label: "Luoye自用-完整分组",
                 value:
                   "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-full.ini"
               },
               {
-                label: "つつ自用-完整分组(地区自动选择)",
+                label: "Luoye自用-完整分组(地区自动选择)",
                 value:
                   "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-full-urltest.ini"
               },
               {
-                label: "つつ自用-Immtel专用(地区自动选择)",
+                label: "Luoye自用-Immtel专用(地区自动选择)",
                 value:
                   "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-full-urltest-imm.ini"
               },
               {
-                label: "つつ自用-超jb精简分组(含国内分流)",
+                label: "Luoye自用-超jb精简分组(含国内分流)",
                 value:
                   "https://cdn.staticaly.com/gh/lhl77/sub-ini/main/tsutsu-mini-gfw.ini"
               },
