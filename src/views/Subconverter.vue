@@ -254,9 +254,9 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
-          "api.tsutsu.cc (つつ提供-香港CN2稳定)": "https://api.tsutsu.cc/sub?",
-          "api2.tsutsu.cc (つつ提供-香港CN2备用)": "https://api2.tsutsu.cc/sub?",
-          "api.v1.mk（肥羊提供-四端八核负载)": "https://api.v1.mk/sub?",
+          "api.tsutsu.cc (香港CN2稳定)": "https://api.tsutsu.cc/sub?",
+          "api2.tsutsu.cc (香港CN2备用)": "https://api2.tsutsu.cc/sub?",
+          "api.v1.mk（四端八核负载)": "https://api.v1.mk/sub?",
           "subcon.dlj.tf (subconverter作者提供) ": "https://subcon.dlj.tf/sub?",
           "api.dler.io (sub作者&lhie1提供)": "https://api.dler.io/sub?",
           "api.wcc.best (sub-web作者提供)": "https://api.wcc.best/sub?",
